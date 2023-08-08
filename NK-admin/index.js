@@ -7,7 +7,7 @@ app.use(express.static(__dirname));
 const path = require('path');
 const router = express.Router();
 
-app.use('/', router);
+// app.use('/', router);
 
 const port = parseInt(process.env.PORT) || 8080;
 app.listen(port, () => {

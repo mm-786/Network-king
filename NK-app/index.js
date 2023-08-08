@@ -7,7 +7,7 @@ app.use(express.static(__dirname));
 const path = require('path');
 const router = express.Router();
 
-app.use('/', router);
+// app.use('/', router);
 
 app.get('*', function(req, res){
   res.redirect('https://network-king.in');
